@@ -85,7 +85,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Selva AgriExports. All Rights Reserved.</p>
+          <p suppressHydrationWarning>&copy; {new Date().getFullYear()} Selva AgriExports. All Rights Reserved.</p>
           <p className="mt-2">A commitment to environmental conservation and rural empowerment.</p>
         </div>
       </div>
