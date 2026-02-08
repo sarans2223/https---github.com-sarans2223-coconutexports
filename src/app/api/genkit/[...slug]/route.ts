@@ -1,3 +1,14 @@
-import { genkit } from '@genkit-ai/next';
+import genkit from '@genkit-ai/next'
+import { NextRequest } from 'next/server'
 
-export const { GET, POST } = genkit();
+export async function POST(req: NextRequest) {
+  const handler = genkit()
+  return handler(req)
+}
+
+export async function GET(req: NextRequest) {
+  const handler = genkit()
+  return handler(req)
+}
+
+
